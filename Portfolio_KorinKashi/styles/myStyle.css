@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair&subset=hebrew');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Cousine&subset=hebrew');
+
+/*פלטת צבעים הרמונים
+קוד צבע אדום-D4273E
+קוד צבע בז-E9E7D5 
+קוד צבע אדום בהיר-F0675C  
+קוד צבע תכלת-E9E7D5  
+קוד צבע כחול כהה-163143*/ 
+
+
+/*מתן הגדרות כליות ועיצוב של הדף והמסגרת שלו*/ 
+
+body {
+    direction: rtl;
+    background: #E9E7D5;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #E9E7D5;
+}
+header {
+    flex: none;
+    padding: 15px;
+    font-size: 5em;
+    font-weight: bold;
+    background: #3FD8C9;
+    color: white;
+    margin-bottom: 70px;
+    background: #3FD8C9;
+}
+
+/*עיצוב דף הבית- אודות קורין*/ 
+
+#sentens {
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 24px;
+    padding: 14px;
+    margin: 6px;
+    border: 3px double #F0675C;
+}
+
+#sentens h1:hover {
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 35px;
+        padding: 24px;
+        margin: 6px;
+        border: 3px double #F0675C;
+    } 
+
+header h1 {
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+#mainPageSec h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    text-align: right;
+}
+#mainPageSec h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 33px;
+    text-align:right;
+}
+
+#mainPageSec p {
+    font-size:25px;
+}
+
+
+/*עיצוב של תפריט צף מימין -כלל אינטרציות*/
+
+#Sidebar {
+    height: 100%;
+    width: 160px;
+    float: right;
+    position: fixed;
+    z-index: 1;
+    margin: -176px;
+    padding: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 155px;
+}
+#Sidebar ul {
+    list-style: none;
+}
+
+#Sidebar ul li {
+        display: block;
+        width: 120px;
+
+    }
+
+ #Sidebar ul li a {
+        padding: 21px 17px 17px 39px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #E9E7D5;
+        display: block;
+        font-family: 'Bellefair', serif;
+        width: 125px;
+    }
+
+
+/*אינטרקציות לניווט -מעבר עכבר ורד קליק אדום ובעמוד הנוכחי צבע ורוד לסימון איפה נמצאים*/
+
+
+
+
+ #Sidebar ul li a:hover {
+            background-color: #F0675C;
+            color: #163143;
+        }
+
+ #Sidebar ul li a:active {
+            background-color: #D4273E;
+  }
+
+    #Sidebar li .active-page {
+        color: #E9E7D5;
+    }
+
+section {
+    padding-right: 20px;
+    padding-bottom: 165px;
+
+}
+
+
+
+section p {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    font-family: 'Bellefair', serif;
+}
+
+#mainPic {
+    display: inline-block;
+    margin-top: 73px;
+    margin-right: 224px;
+}
+
+/*עיצוב של פוטר תחתחון של אתר*/
+
+footer {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: #E9E7D5;
+    color: #163143;
+    text-align: center;
+    margin-bottom: -86px;
+}
+
+
+
+/*אייקונים צור קשר:! - קוד מובנה מהאתר של W3לשים לב שאסור לשנות כלום זה דופק את הקוד */
+    footer p { 
+        font-family: 'Black Han Sans', sans-serif;
+        /*margin-top: -145px;
+        font-size: 50px;
+        margin-bottom: 45px;*/
+    }
+
+
+.fa{
+    padding: 7px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+ 
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#Sidebar ul li a.active-page {
+    background-color: #3FD8C9;
+}
+
+/* חלק ב- עיצוב של הגלויה*/
+
+#h2Act {
+    font-size: 40px;
+    color: #;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: 'Bellefair', serif;
+}
+#ActSec p {
+    font-size: 20px;
+}
+
+#ActPic {
+    margin-right: 517px;
+    margin-top: -411px;
+
+}
+    #ActPic audio {
+        padding-right: 0px;
+        width: 400px;
+    }
+
+/*תקשורת חזותית -שקיעה חידוש יצירה של רועי נחום*/
+#container #aboutTik {
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+
+#container #aboutTik p {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    font-family: 'Bellefair', serif;
+    text-align:center;
+    margin-right:210px;
+    font-size:20px;
+
+}
+#aboutTik h2, h3 {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+    font-family: 'Bellefair', serif;
+}
+
+#TheArtItself h2 {
+    font-family: 'Bellefair', serif;
+}
+
+/*עיצוב של התומנה המחודשת יחד עם אינטרקציות*/ 
+#ArtPic {
+    padding: 84px;
+    margin-right: 31px;
+    transition: transform .2s;
+}
+
+#ArtPic:hover {
+        transform: scale(1.2);
+    }
+#TheArtItself h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#TheArtItself iframe {
+    margin-right: 184px;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid black;
+    padding-bottom: -5px;
+    margin-right: 408px;
+    margin-top: 40px;
+}
+    #triangle-down:hover {
+        border-top: 100px solid white;
+    }
+
+
+    /*ריטוש תמונה מחדש של תמונת משפחת קאשי -פוטושופ*/
+
+
+#Potofam h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Bellefair', serif;
+}
+#Potofam p {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 218px;
+}
+#doog {
+    margin-top: 35px;
+}
